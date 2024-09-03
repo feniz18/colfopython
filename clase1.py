@@ -1,7 +1,5 @@
 ''' 
 Este programa calcula la sumatoria de dos numeros
-variable 1
-variable 2
 '''
 
 num1 = int(input("Por favor ingrese el primer numero"))
