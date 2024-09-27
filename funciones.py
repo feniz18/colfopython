@@ -1,41 +1,35 @@
-variable1 = 5
-variable2 = 6
+def calculadora(variable1, variable2, operacion):
+    variable1 = int(variable1)
+    variable2 = int(variable2)
+    if(variable1 < 0 or variable2 < 0):
+        print("no puedes ingresar valores negativos")
+    else:
+        if(operacion == '+'):
+            resultado = variable1 + variable2
+            print(resultado)
+        elif (operacion == '-'):
+            resultado = variable1 - variable2
+            print(resultado)
+        elif (operacion == '*'):
+            resultado = variable1 * variable2
+            print(resultado)
+        elif (operacion == '/'):
+            if(variable2 == 0):
+                print("no se puede dividir por cero")
+            else:
+                resultado = variable1 / variable2
+                print(resultado)
+        else:
+            print("Has ingresado un parametro incorrecto")
 
-resultado = variable1 + variable2
-if(variable1<0):
-    print("no puedes ingresar valores postivo")
-else:
-    print(resultado)
+num1 = input("Por favor digite el numero a operar")
+num2 = input("Por favor digite el segundo numero a operar")
+ope = input("Por favor digite la operación a realizar permitidad: + - * /")
 
-variable1 = 3
-variable2 = 4
+calculadora(num1,num2,'+')
+calculadora(num1,num2,'-')
+calculadora(num1,num2,'*')
+calculadora(num1,num2,'/')
 
-resultado = variable1 - variable2
-print(resultado)
+calculadora(10,-5,'/')
 
-if(variable1<0):
-    print("no puedes ingresar valores postivo")
-else:
-    print(resultado)
-
-variable1 = 3
-variable2 = 4
-
-resultado = variable1 * variable2
-print(resultado)
-
-if(variable1<0):
-    print("no puedes ingresar valores postivo")
-else:
-    print(resultado)
-
-variable1 = 3
-variable2 = 4
-
-resultado = variable1 / variable2 
-print(resultado)
-
-if(variable1<0):
-    print("no puedes ingresar valores postivo")
-else:
-    print(resultado)
