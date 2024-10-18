@@ -8,3 +8,5 @@ class Gato(Animal, Llamar):
 gato1 = Gato('Polar')
 
 gato1.saludar()
+
+gato1.saludar()
