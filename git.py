@@ -1,1 +1,2 @@
 inicia = open
+fin = closed
