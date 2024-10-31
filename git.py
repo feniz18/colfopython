@@ -1,2 +1,3 @@
-inicia = open
-fin = closed
+inicia = "open"
+fin = "cerrar"
+
