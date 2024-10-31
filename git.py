@@ -1,4 +1,5 @@
 inicia = "open"
 fin = "cerrare la puerta"
 
-#Esperando instrucciones
+sentencia = "SE agregaga variable sentencia"
+
