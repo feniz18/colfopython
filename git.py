@@ -1,3 +1,3 @@
 inicia = "open"
-fin = "cerrar"
+fin = "cerrare la puerta"
 
